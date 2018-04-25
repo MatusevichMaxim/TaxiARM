@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:background="@drawable/taxibackground">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80212121">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:divider="@drawable/horizontal_separator"
+            android:dividerPadding="25dp"
+            android:showDividers="middle">
+            <TextView
+                android:id="@+id/orders_review"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Orders review"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/orders_report"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Orders report"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/clients_reviews"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Clients reviews"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/discount_cards"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Discount cards"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/drivers_button"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Drivers"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/rates_button"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Rates"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/streets_button"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Streets"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+            <TextView
+                android:id="@+id/problems_reports"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Problems report"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp" />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#BD6252"
+        android:layout_alignParentBottom="true"
+        android:text="Log out" />
+</RelativeLayout>

@@ -77,6 +77,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\MainMenuActivity.cs" />
     <Compile Include="Helpers\Constants.cs" />
+    <Compile Include="Adapters\CustomListAdapter.cs" />
+    <Compile Include="Models\OrderModel.cs" />
+    <Compile Include="Classes\OrdersActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -95,6 +98,11 @@
     <AndroidResource Include="Resources\drawable\horizontal_separator.xml" />
     <AndroidResource Include="Resources\drawable\logout_button.xml" />
     <AndroidResource Include="Resources\drawable\ic_orders_review.png" />
+    <AndroidResource Include="Resources\layout\lyt_orders_list.axml" />
+    <AndroidResource Include="Resources\layout\lyt_orders_row.axml" />
+    <AndroidResource Include="Resources\drawable\ic_arrow.png" />
+    <AndroidResource Include="Resources\drawable\ic_waiting_status.png" />
+    <AndroidResource Include="Resources\drawable\ic_active_status.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
@@ -105,6 +113,8 @@
     <Folder Include="Resources\drawable\" />
     <Folder Include="Classes\" />
     <Folder Include="Helpers\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Vonique 64.ttf" />

@@ -49,7 +49,11 @@ namespace TaxiARM.Classes
             logout.SetTypeface(Constants.Instance.Vonique64Bold, TypefaceStyle.Normal);
             logout.Click += delegate { OnBackPressed(); };
 
-
+            orderReview.Click += (sender, e) =>
+            { 
+                var intent = new Intent(this, typeof(OrdersActivity));
+                StartActivity(intent);
+            };
         }
     }
 }

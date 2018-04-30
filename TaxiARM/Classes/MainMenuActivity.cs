@@ -33,7 +33,7 @@ namespace TaxiARM.Classes
         {
             base.OnCreate(savedInstanceState);
 
-            // Create your application here
+            RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.lyt_main_menu);
 
             orderReview = FindViewById<TextView>(Resource.Id.orders_review);

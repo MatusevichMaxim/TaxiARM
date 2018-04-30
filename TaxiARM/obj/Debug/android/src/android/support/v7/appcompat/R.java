@@ -1964,6 +1964,7 @@ containing a value of this type.
         public static int title=0x7f0a002d;
         public static int titleDividerNoCustom=0x7f0a003c;
         public static int title_template=0x7f0a003a;
+        public static int toolbar=0x7f0a0080;
         public static int top=0x7f0a0023;
         public static int topPanel=0x7f0a0039;
         public static int up=0x7f0a0008;
@@ -2028,6 +2029,7 @@ containing a value of this type.
         public static int select_dialog_multichoice_material=0x7f03002f;
         public static int select_dialog_singlechoice_material=0x7f030030;
         public static int support_simple_spinner_dropdown_item=0x7f030031;
+        public static int toolbar=0x7f030032;
     }
     public static final class string {
         public static int abc_action_bar_home_description=0x7f050000;

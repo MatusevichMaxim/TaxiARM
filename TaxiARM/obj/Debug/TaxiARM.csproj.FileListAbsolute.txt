@@ -60,7 +60,9 @@
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_arrow.png
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_waiting_status.png
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_active_status.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/toolbar.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/R.cs.flag
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/uploadflags.txt
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_order_creating.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/TaxiARM.pdb
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/Mono.Android.pdb

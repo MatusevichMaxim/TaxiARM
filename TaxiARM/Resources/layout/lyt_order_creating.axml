@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Surname:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_surname"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Phone:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Time:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_time"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Landind Address:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_landing_address"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Target Address:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_target_address"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Estimated cost: 5$"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Estimated time: 00:18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Discount card:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_discound_card"
+        android:layout_width="200dp"
+        android:layout_height="30dp" />
+</LinearLayout>

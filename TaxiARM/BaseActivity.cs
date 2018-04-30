@@ -22,7 +22,7 @@ namespace TaxiARM
         {
             base.OnCreate(savedInstanceState);
 
-            // Set our view from the "main" layout resource
+            RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.Main);
 
             Constants.Instance.InitializeConstants(Assets);

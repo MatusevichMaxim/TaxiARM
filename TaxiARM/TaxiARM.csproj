@@ -103,6 +103,8 @@
     <AndroidResource Include="Resources\drawable\ic_arrow.png" />
     <AndroidResource Include="Resources\drawable\ic_waiting_status.png" />
     <AndroidResource Include="Resources\drawable\ic_active_status.png" />
+    <AndroidResource Include="Resources\layout\toolbar.xml" />
+    <AndroidResource Include="Resources\layout\lyt_order_creating.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

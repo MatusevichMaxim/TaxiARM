@@ -14,6 +14,10 @@ TaxiARM.Classes.OrdersActivity, TaxiARM;md5666efd31617e432584ae75efbe763762.Orde
 TaxiARM.Classes.OrdersActivity, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.OrdersActivity
 TaxiARM.Classes.OrdersActivity;md5666efd31617e432584ae75efbe763762.OrdersActivity
 taxiarm.classes.OrdersActivity;md5666efd31617e432584ae75efbe763762.OrdersActivity
+TaxiARM.Classes.OrdersCreating, TaxiARM;md5666efd31617e432584ae75efbe763762.OrdersCreating
+TaxiARM.Classes.OrdersCreating, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.OrdersCreating
+TaxiARM.Classes.OrdersCreating;md5666efd31617e432584ae75efbe763762.OrdersCreating
+taxiarm.classes.OrdersCreating;md5666efd31617e432584ae75efbe763762.OrdersCreating
 Android.Support.V4.App.SharedElementCallback/IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=71f3e3261ac778b5;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback.IOnSharedElementsReadyListenerImplementor;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor

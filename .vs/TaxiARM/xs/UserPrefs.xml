@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{AF376469-99FC-46D4-94A0-1F7E2009912B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaxiARM/Classes/OrdersCreating.cs">
     <Files>
-      <File FileName="TaxiARM/Adapters/CustomListAdapter.cs" Line="35" Column="91" />
-      <File FileName="TaxiARM/Classes/OrdersActivity.cs" Line="59" Column="59" />
-      <File FileName="TaxiARM/Classes/MainMenuActivity.cs" Line="36" Column="13" />
+      <File FileName="TaxiARM/Classes/OrdersActivity.cs" Line="67" Column="31" />
+      <File FileName="TaxiARM/Classes/OrdersCreating.cs" Line="34" Column="29" />
+      <File FileName="TaxiARM/Classes/MainMenuActivity.cs" Line="49" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

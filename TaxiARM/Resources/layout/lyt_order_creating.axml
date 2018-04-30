@@ -1,70 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:text="Name:"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_name"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Surname:"
+        android:layout_height="match_parent"
+        android:src="@drawable/taxibackground"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_surname"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Phone:"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <TextView
+            android:text="Order time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/tv_orderTime"
+            android:text="01.05.2018 12:01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#E9C255" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Surname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_userName"
+                android:text="Veronika"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="#E9C255"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/tv_userSurname"
+                android:text="Tebenkova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="#E9C255"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Landing Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1" />
+            <TextView
+                android:text="Landing Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:textAlignment="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/tv_landingAddress"
+                android:text="Sukharevo 68"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="#E9C255"
+                android:layout_weight="1" />
+            <ImageView
+                android:src="@drawable/ic_arrow"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/tv_targetAddress"
+                android:text="Borisovo 15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="#E9C255"
+                android:layout_weight="1" />
+        </LinearLayout>
+        <TextView
+            android:text="Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/userPhone"
+            android:text="+375(29)3446574"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#E9C255" />
+        <TextView
+            android:text="Estimated time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/tv_estimatedTime"
+            android:text="00:18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#E9C255" />
+        <TextView
+            android:text="Estimated cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/tv_estimatedCost"
+            android:text="12.00 BYN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#E9C255" />
+        <TextView
+            android:text="Discount card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:id="@+id/tv_discountCard"
+            android:text="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="#E9C255" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_find_driver"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_phone"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Time:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_time"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Landind Address:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_landing_address"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Target Address:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_target_address"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-    <TextView
-        android:text="Estimated cost: 5$"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:text="Estimated time: 00:18"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <TextView
-        android:text="Discount card:"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/edit_discound_card"
-        android:layout_width="200dp"
-        android:layout_height="30dp" />
-</LinearLayout>
+        android:layout_height="50dp"
+        android:background="#E9C255"
+        android:layout_alignParentBottom="true"
+        android:text="Confirm purchase"
+        android:textColor="#82621B" />
+</RelativeLayout>

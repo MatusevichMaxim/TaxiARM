@@ -11,7 +11,7 @@ using TaxiARM.Helpers;
 
 namespace TaxiARM
 {
-    [Activity(Label = "TaxiARM", MainLauncher = true)]
+    [Activity(Label = "TaxiARM", MainLauncher = true, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class BaseActivity : Activity
     {
         private Button loginButton;

@@ -80,6 +80,7 @@
     <Compile Include="Adapters\CustomListAdapter.cs" />
     <Compile Include="Models\OrderModel.cs" />
     <Compile Include="Classes\OrdersActivity.cs" />
+    <Compile Include="Classes\OrdersCreating.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -103,7 +104,6 @@
     <AndroidResource Include="Resources\drawable\ic_arrow.png" />
     <AndroidResource Include="Resources\drawable\ic_waiting_status.png" />
     <AndroidResource Include="Resources\drawable\ic_active_status.png" />
-    <AndroidResource Include="Resources\layout\toolbar.xml" />
     <AndroidResource Include="Resources\layout\lyt_order_creating.axml" />
   </ItemGroup>
   <ItemGroup>

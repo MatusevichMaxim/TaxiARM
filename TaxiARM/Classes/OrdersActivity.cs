@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Text;
 using Android.Views;
@@ -46,6 +47,7 @@ namespace TaxiARM.Classes
             CustomListAdapter adapter = new CustomListAdapter(this, mItems);
 
             list.Adapter = adapter;
+            list.ItemClick += List_ItemClick;
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
@@ -58,6 +60,12 @@ namespace TaxiARM.Classes
                 default:
                     return base.OnOptionsItemSelected(item);
             }
+        }
+
+        private void List_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            var intent = new Intent(this, typeof(OrdersCreating));
+            StartActivity(intent);
         }
     }
 }

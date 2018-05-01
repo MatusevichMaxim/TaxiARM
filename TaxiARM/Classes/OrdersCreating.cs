@@ -16,7 +16,7 @@ using TaxiARM.Helpers;
 
 namespace TaxiARM.Classes
 {
-    [Activity(Label = "OrdersCreating")]
+    [Activity(Label = "OrdersCreating", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class OrdersCreating : Activity
     {
         private Button findDrivers;
@@ -39,7 +39,16 @@ namespace TaxiARM.Classes
 
         private void FindDrivers_Click(object sender, EventArgs e)
         {
-            
+            CreateLoader();
+        }
+
+        private void CreateLoader()
+        {
+            var loader = FindViewById<RelativeLayout>(Resource.Id.loader_lyt);
+
+            loader.Visibility = ViewStates.Visible;
+            loader.Alpha = 0.5f;
+            findDrivers.Enabled = false;
         }
     }
 }

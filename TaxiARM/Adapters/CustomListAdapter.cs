@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using Android.App;
 using Android.Content;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using TaxiARM.Models;
@@ -40,6 +42,7 @@ namespace TaxiARM.Adapters
             TextView time = row.FindViewById<TextView>(Resource.Id.landing_time);
             TextView persons = row.FindViewById<TextView>(Resource.Id.people_counter);
             ImageView status = row.FindViewById<ImageView>(Resource.Id.status_icon);
+            ImageView removeButton = row.FindViewById<ImageView>(Resource.Id.remove_item);
 
             orderId.Text = mItems[position].OrderId;
             landing.Text = mItems[position].LandingAddress;
@@ -52,7 +55,14 @@ namespace TaxiARM.Adapters
             else
                 status.SetImageResource(Resource.Drawable.ic_waiting_status);
 
+            removeButton.Click += RemoveButton_Click;
+
             return row;
+        }
+
+        private void RemoveButton_Click(object sender, System.EventArgs e)
+        {
+            Toast.MakeText(mContext, "Deleted", ToastLength.Short);
         }
     }
 }

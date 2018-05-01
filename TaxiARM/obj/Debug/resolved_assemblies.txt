@@ -6,6 +6,7 @@
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/System.dll
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/System.Runtime.dll
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/System.Xml.dll
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/Xamarin.Android.AVLoadingIndicatorViewBinding.dll
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/Xamarin.Android.Support.Animated.Vector.Drawable.dll
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/Xamarin.Android.Support.Annotations.dll
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/android/assets/Xamarin.Android.Support.Compat.dll

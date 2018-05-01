@@ -15,7 +15,7 @@ using TaxiARM.Helpers;
 
 namespace TaxiARM.Classes
 {
-    [Activity(Label = "MainMenuActivity")]
+    [Activity(Label = "MainMenuActivity", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class MainMenuActivity : Activity
     {
         private TextView orderReview;

@@ -22,6 +22,12 @@
             android:src="@drawable/ic_waiting_status"
             android:layout_width="30dp"
             android:layout_height="30dp" />
+        <ImageView
+            android:id="@+id/remove_item"
+            android:src="@drawable/ic_remove"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"

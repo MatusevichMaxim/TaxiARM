@@ -11,7 +11,7 @@ using TaxiARM.Models;
 
 namespace TaxiARM.Classes
 {
-    [Activity(Label = "OrdersActivity")]
+    [Activity(Label = "OrdersActivity", ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class OrdersActivity : Activity
     {
         private List<OrderModel> mItems;

@@ -11,9 +11,9 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="MainMenuActivity" android:name="md5666efd31617e432584ae75efbe763762.MainMenuActivity" />
-    <activity android:label="OrdersActivity" android:name="md5666efd31617e432584ae75efbe763762.OrdersActivity" />
-    <activity android:label="OrdersCreating" android:name="md5666efd31617e432584ae75efbe763762.OrdersCreating" />
+    <activity android:label="MainMenuActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.MainMenuActivity" />
+    <activity android:label="OrdersActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.OrdersActivity" />
+    <activity android:label="OrdersCreating" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.OrdersCreating" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.iit.TaxiARM.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

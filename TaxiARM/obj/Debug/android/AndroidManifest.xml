@@ -16,6 +16,8 @@
     <activity android:label="OrdersCreating" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.OrdersCreating" />
     <activity android:label="OrdersReportActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.OrdersReportActivity" />
     <activity android:label="ReportActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.ReportActivity" />
+    <activity android:label="ClientsReviewsActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.ClientsReviewsActivity" />
+    <activity android:label="ReviewActivity" android:screenOrientation="portrait" android:name="md5666efd31617e432584ae75efbe763762.ReviewActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.iit.TaxiARM.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

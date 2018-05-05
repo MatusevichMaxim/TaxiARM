@@ -21,7 +21,6 @@ namespace TaxiARM.Classes
         {
             base.OnCreate(savedInstanceState);
 
-            var item = Intent.GetStringExtra("report_id");
             var title = $"{Intent.GetStringExtra("report_id")} report";
 
             var st = new SpannableString(title);

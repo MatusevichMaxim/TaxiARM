@@ -87,6 +87,8 @@
     <Compile Include="Classes\OrdersReportActivity.cs" />
     <Compile Include="Classes\ReportActivity.cs" />
     <Compile Include="Models\DriverModel.cs" />
+    <Compile Include="Classes\ClientsReviewsActivity.cs" />
+    <Compile Include="Classes\ReviewActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -117,6 +119,9 @@
     <AndroidResource Include="Resources\layout\lyt_order_report.axml" />
     <AndroidResource Include="Resources\drawable\ic_car.png" />
     <AndroidResource Include="Resources\drawable\ic_arrow_right.png" />
+    <AndroidResource Include="Resources\layout\lyt_order_review.axml" />
+    <AndroidResource Include="Resources\drawable\ic_star_empty.png" />
+    <AndroidResource Include="Resources\drawable\ic_star_fill.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

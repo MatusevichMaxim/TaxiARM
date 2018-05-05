@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/taxibackground"
+        android:scaleType="centerCrop" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+        <LinearLayout
+            android:id="@+id/rev_driver_row"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:src="@drawable/ic_car"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="3">
+                <TextView
+                    android:text="Driver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textAlignment="center" />
+                <TextView
+                    android:id="@+id/rev_driver"
+                    android:text="Stanislav Horoshev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:textColor="#E9C255" />
+            </LinearLayout>
+            <ImageView
+                android:src="@drawable/ic_arrow_right"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/client_review_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minHeight="50dp"
+            android:enabled="false"
+            android:background="@android:color/transparent"
+            android:text="I appreciate there not being a paywall: it is more democratic for the media to be available for all and not a commodity to be purchased by a few. I’m happy to make a contribution so others with less means still have access to information." />
+        <LinearLayout
+            android:id="@+id/review_stars"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+            <ImageView
+                android:src="@drawable/ic_star_fill"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/ic_star_fill"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/ic_star_empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/ic_star_empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <ImageView
+                android:src="@drawable/ic_star_empty"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

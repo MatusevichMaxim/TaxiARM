@@ -50,5 +50,17 @@ namespace TaxiARM.Classes
             loader.Alpha = 0.5f;
             findDrivers.Enabled = false;
         }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                case Android.Resource.Id.Home:
+                    Finish();
+                    return true;
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
+        }
     }
 }

@@ -63,8 +63,13 @@
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_active_status.png
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_order_creating.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_remove.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_orders_report_list.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/app_logo.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_order_report.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/R.cs.flag
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/uploadflags.txt
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/TaxiARM.csprojResolveAssemblyReference.cache
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_car.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_arrow_right.png
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/TaxiARM.pdb
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/Mono.Android.pdb

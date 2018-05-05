@@ -50,10 +50,25 @@ namespace TaxiARM.Classes
             logout.Click += delegate { OnBackPressed(); };
 
             orderReview.Click += (sender, e) =>
-            { 
-                var intent = new Intent(this, typeof(OrdersActivity));
-                StartActivity(intent);
+            {
+                OpenPage(typeof(OrdersActivity));
             };
+
+            orderReport.Click += (sender, e) =>
+            {
+                OpenPage(typeof(OrdersReportActivity));
+            };
+
+            clientsReviews.Click += (sender, e) =>
+            { 
+                
+            };
+        }
+
+        private void OpenPage(Type page)
+        { 
+            var intent = new Intent(this, page);
+            StartActivity(intent);
         }
     }
 }

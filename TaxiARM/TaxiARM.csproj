@@ -84,6 +84,9 @@
     <Compile Include="Models\OrderModel.cs" />
     <Compile Include="Classes\OrdersActivity.cs" />
     <Compile Include="Classes\OrdersCreating.cs" />
+    <Compile Include="Classes\OrdersReportActivity.cs" />
+    <Compile Include="Classes\ReportActivity.cs" />
+    <Compile Include="Models\DriverModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -109,6 +112,11 @@
     <AndroidResource Include="Resources\drawable\ic_active_status.png" />
     <AndroidResource Include="Resources\layout\lyt_order_creating.axml" />
     <AndroidResource Include="Resources\drawable\ic_remove.png" />
+    <AndroidResource Include="Resources\layout\lyt_orders_report_list.axml" />
+    <AndroidResource Include="Resources\drawable\app_logo.png" />
+    <AndroidResource Include="Resources\layout\lyt_order_report.axml" />
+    <AndroidResource Include="Resources\drawable\ic_car.png" />
+    <AndroidResource Include="Resources\drawable\ic_arrow_right.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

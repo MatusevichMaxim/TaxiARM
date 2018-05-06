@@ -6,6 +6,18 @@ TaxiARM.Adapters.CustomListAdapter, TaxiARM;md52014eaa34fcfb94e67be164a9ebcdc8d.
 TaxiARM.Adapters.CustomListAdapter, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52014eaa34fcfb94e67be164a9ebcdc8d.CustomListAdapter
 TaxiARM.Adapters.CustomListAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.CustomListAdapter
 taxiarm.adapters.CustomListAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.CustomListAdapter
+TaxiARM.Adapters.DiscountAdapter, TaxiARM;md52014eaa34fcfb94e67be164a9ebcdc8d.DiscountAdapter
+TaxiARM.Adapters.DiscountAdapter, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52014eaa34fcfb94e67be164a9ebcdc8d.DiscountAdapter
+TaxiARM.Adapters.DiscountAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.DiscountAdapter
+taxiarm.adapters.DiscountAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.DiscountAdapter
+TaxiARM.Adapters.DriverAdapter, TaxiARM;md52014eaa34fcfb94e67be164a9ebcdc8d.DriverAdapter
+TaxiARM.Adapters.DriverAdapter, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52014eaa34fcfb94e67be164a9ebcdc8d.DriverAdapter
+TaxiARM.Adapters.DriverAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.DriverAdapter
+taxiarm.adapters.DriverAdapter;md52014eaa34fcfb94e67be164a9ebcdc8d.DriverAdapter
+TaxiARM.Helpers.EditDialog, TaxiARM;md55adf89499e8ed93956c9b565476ee665.EditDialog
+TaxiARM.Helpers.EditDialog, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md55adf89499e8ed93956c9b565476ee665.EditDialog
+TaxiARM.Helpers.EditDialog;md55adf89499e8ed93956c9b565476ee665.EditDialog
+taxiarm.helpers.EditDialog;md55adf89499e8ed93956c9b565476ee665.EditDialog
 TaxiARM.Classes.MainMenuActivity, TaxiARM;md5666efd31617e432584ae75efbe763762.MainMenuActivity
 TaxiARM.Classes.MainMenuActivity, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.MainMenuActivity
 TaxiARM.Classes.MainMenuActivity;md5666efd31617e432584ae75efbe763762.MainMenuActivity
@@ -34,6 +46,14 @@ TaxiARM.Classes.ReviewActivity, TaxiARM;md5666efd31617e432584ae75efbe763762.Revi
 TaxiARM.Classes.ReviewActivity, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.ReviewActivity
 TaxiARM.Classes.ReviewActivity;md5666efd31617e432584ae75efbe763762.ReviewActivity
 taxiarm.classes.ReviewActivity;md5666efd31617e432584ae75efbe763762.ReviewActivity
+TaxiARM.Classes.DiscountsActivity, TaxiARM;md5666efd31617e432584ae75efbe763762.DiscountsActivity
+TaxiARM.Classes.DiscountsActivity, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.DiscountsActivity
+TaxiARM.Classes.DiscountsActivity;md5666efd31617e432584ae75efbe763762.DiscountsActivity
+taxiarm.classes.DiscountsActivity;md5666efd31617e432584ae75efbe763762.DiscountsActivity
+TaxiARM.Classes.DriversActivity, TaxiARM;md5666efd31617e432584ae75efbe763762.DriversActivity
+TaxiARM.Classes.DriversActivity, TaxiARM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5666efd31617e432584ae75efbe763762.DriversActivity
+TaxiARM.Classes.DriversActivity;md5666efd31617e432584ae75efbe763762.DriversActivity
+taxiarm.classes.DriversActivity;md5666efd31617e432584ae75efbe763762.DriversActivity
 Android.Support.V4.App.SharedElementCallback/IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback+IOnSharedElementsReadyListenerImplementor, Xamarin.Android.Support.Compat, Version=1.0.0.0, Culture=neutral, PublicKeyToken=71f3e3261ac778b5;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor
 Android.Support.V4.App.SharedElementCallback.IOnSharedElementsReadyListenerImplementor;mono.android.support.v4.app.SharedElementCallback_OnSharedElementsReadyListenerImplementor

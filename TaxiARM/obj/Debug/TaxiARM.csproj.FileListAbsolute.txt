@@ -71,8 +71,14 @@
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_order_review.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_star_empty.png
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_star_fill.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_discount_cards.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/border.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/drawable/ic_add.png
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_discount_row.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_edit_discount_dialog.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_drivers_list.xml
+/Users/air/XamarinProjects/TaxiARM/obj/Debug/res/layout/lyt_driver_card.xml
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/R.cs.flag
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/uploadflags.txt
-/Users/air/XamarinProjects/TaxiARM/obj/Debug/TaxiARM.csprojResolveAssemblyReference.cache
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/TaxiARM.pdb
 /Users/air/XamarinProjects/TaxiARM/obj/Debug/linksrc/Mono.Android.pdb

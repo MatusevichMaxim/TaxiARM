@@ -65,8 +65,13 @@ namespace TaxiARM.Classes
             };
 
             discountCards.Click += (sender, e) =>
-            { 
-                
+            {
+                OpenPage(typeof(DiscountsActivity));
+            };
+
+            driversButton.Click += (sender, e) =>
+            {
+                OpenPage(typeof(DriversActivity));
             };
         }
 

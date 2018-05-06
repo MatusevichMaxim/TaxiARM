@@ -89,6 +89,13 @@
     <Compile Include="Models\DriverModel.cs" />
     <Compile Include="Classes\ClientsReviewsActivity.cs" />
     <Compile Include="Classes\ReviewActivity.cs" />
+    <Compile Include="Classes\DiscountsActivity.cs" />
+    <Compile Include="Models\DiscountModel.cs" />
+    <Compile Include="Adapters\DiscountAdapter.cs" />
+    <Compile Include="Helpers\EditDialog.cs" />
+    <Compile Include="Classes\DriversActivity.cs" />
+    <Compile Include="Models\CarModel.cs" />
+    <Compile Include="Adapters\DriverAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -122,6 +129,13 @@
     <AndroidResource Include="Resources\layout\lyt_order_review.axml" />
     <AndroidResource Include="Resources\drawable\ic_star_empty.png" />
     <AndroidResource Include="Resources\drawable\ic_star_fill.png" />
+    <AndroidResource Include="Resources\layout\lyt_discount_cards.axml" />
+    <AndroidResource Include="Resources\drawable\border.xml" />
+    <AndroidResource Include="Resources\drawable\ic_add.png" />
+    <AndroidResource Include="Resources\layout\lyt_discount_row.axml" />
+    <AndroidResource Include="Resources\layout\lyt_edit_discount_dialog.axml" />
+    <AndroidResource Include="Resources\layout\lyt_drivers_list.axml" />
+    <AndroidResource Include="Resources\layout\lyt_driver_card.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />
